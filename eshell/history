@@ -1,0 +1,33 @@
+d:
+cd softwares/
+dir
+dir
+ll
+ls
+cd davmail/
+dir
+ls
+./davmail64.exe 
+echo %JAVA_HOME%
+echo %JAVA_HOME%
+set
+printenv
+echo
+path
+echo %PATH%
+echo $PATH
+echo $JAVA_HOME
+dir
+ls
+start http://java.com/en/download/manual.jsp
+exit
+d:
+ls
+davmail64.exe 
+davmail64.exe 
+echo $JRE_HOME
+exit
+d:
+davmail64.exe 
+echo $JRE_HOME
+davmail64.exe 
