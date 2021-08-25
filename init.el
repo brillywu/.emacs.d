@@ -5,7 +5,9 @@
  ;; If there is more than one, they won't work right.
  '(calendar-week-start-day 1)
  '(make-backup-files nil)
- '(package-selected-packages '(ace-window ztree))
+ '(markdown-command "d:/softwares/emacs/tools/pandoc.exe -f markdown -t html")
+ '(package-selected-packages
+   '(markdown-toc markdown-preview-mode markdown-mode ace-window ztree))
  '(show-paren-mode t))
 
 (custom-set-faces
@@ -23,6 +25,7 @@
 (require 'config-packages)
 (require 'config-gnus)
 (require 'config-kbd)
+(require 'icicles)
 
 ;;;;;;;;;;;; recent file list
 (require 'recentf)
@@ -51,3 +54,4 @@
 
 (display-time)
 (calendar)
+(icy-mode 1)
